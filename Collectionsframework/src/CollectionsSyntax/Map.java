@@ -21,16 +21,16 @@ public class Map {
 			System.out.println(m1.getKey() + " " + m1.getValue());
 		}
 
-		for (Entry<Integer, String> m : map.entrySet()) {
+		/*for (Entry<Integer, String> m : map.entrySet()) {
 			System.out.println(m.getKey() + " " + m.getValue());
 		}
-
-		
+*/
+		/*
 		  Set<Entry<Integer, String>> set = map.entrySet(); Iterator<Entry<Integer,
 		  String>> itr = set.iterator(); while (itr.hasNext()) { Entry<Integer, String>
 		  entry = itr.next(); System.out.println(entry.getKey() + " " +
 		  entry.getValue()); }
-		 
+		 */
 
 	}
 }

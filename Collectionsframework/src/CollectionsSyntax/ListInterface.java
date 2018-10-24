@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+
+
 public class ListInterface {
+
 	public static void main(String[] args) {
 
 		ArrayList<String> list = new ArrayList<String>();
@@ -29,7 +32,7 @@ public class ListInterface {
 		list2.add(40);
 
 		Iterator<String> itr1 = list.iterator();
-		while (itr.hasNext()) {
+		while (itr1.hasNext()) {
 			System.out.println(itr1.next());
 		}
 
@@ -43,5 +46,6 @@ public class ListInterface {
 		list9.add(2,10);
 		
 		System.out.println(list9);
+		
+		}
 	}
-}
