@@ -14,12 +14,13 @@ public abstract class Engineering {
 
 	public abstract void computerDepartment();
 
-	public void mechanicalDepartment() {
+	public static void mechanicalDepartment() {
 		System.out.println(" Engineering mechanicalDepartment");
 	}
 
-	public void civilDepartment() {
+	public int civilDepartment() {
 		System.out.println("Engineering civilDepartment ");
+		return deposit_minamount;
 	}
 
 }

@@ -31,7 +31,7 @@ public class ExceptionHandling {
 			
 			
 			}
-		finally {
+		finally {  //finally is a block
 			
 			int num1=10;
 			int num2=30;

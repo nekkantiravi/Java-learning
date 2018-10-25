@@ -7,13 +7,13 @@ public class TestEngineering {
 		College c=new College();
 		c.computerDepartment();
 		c.civilDepartment();
-		c.mechanicalDepartment();
+		Engineering.mechanicalDepartment();
 		c.collegeStaff();
 		
 		Engineering e=new College();//Dynamic polymorphism
 		e.computerDepartment();
 		e.civilDepartment();
-		e.mechanicalDepartment();
+		Engineering.mechanicalDepartment();
 		
 		int b=Engineering.loan_percentage;
 		System.out.println(b);

@@ -27,7 +27,7 @@ public class StaticAndNonStaticConcept {
 
 		// can i access static methods by object reference?Yes we can access but not
 		// recommended
-		obj.sum();
+		//obj.sum();
 	}
 
 }

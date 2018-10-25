@@ -2,8 +2,10 @@ package exceptionHandling;
 
 public class FinalizeConcept {
 	
-	public void finalize() {  //Called by the garbage collector on an object when garbage collection determines that there are 
+	public void finalize() {  //finalize is a method, Called by the garbage collector on an object when garbage collection determines that there are 
 		                      //no more references to the object
+		
+		
 		System.out.println("garbage collector");
 	}
 

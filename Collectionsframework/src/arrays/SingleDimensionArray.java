@@ -31,6 +31,7 @@ public class SingleDimensionArray {
 		// print all the values of array
 		for (int j = 0; j < i.length; j++) {
 			System.out.println(i[j]);
+		
 		}
 		//2. double array
 
@@ -73,6 +74,10 @@ public class SingleDimensionArray {
 		ob[2]="tom";
 		ob[3]=true;
 		System.out.println(ob[3]);
+		
+		for(int k=0; k<ob.length;k++) {
+			System.out.println(ob[k]);
+		}
 		
 
 	}
