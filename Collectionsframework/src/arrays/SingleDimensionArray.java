@@ -64,7 +64,9 @@ public class SingleDimensionArray {
 		s[2] = "arrays";
 		System.out.println(s.length);
 		System.out.println(s[2]);
-		
+		for (int j = 0; j < s.length; j++) {
+			System.out.println("String array :" +s[j]);
+		}
 		//6. Object array(Object is a class--is used to store different data type values)
 		
 		Object ob[]=new Object[4];
@@ -82,4 +84,4 @@ public class SingleDimensionArray {
 
 	}
 
-}
+	}

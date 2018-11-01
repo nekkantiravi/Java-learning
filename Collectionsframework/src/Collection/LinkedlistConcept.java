@@ -13,7 +13,7 @@ public class LinkedlistConcept {
 		ll.add("QTP");
 		ll.add("Jmeter");
 
-		ll.get(1);
+		System.out.println(ll.get(1));
 
 		ll.addFirst("cucumber");
 		ll.addLast("framework");

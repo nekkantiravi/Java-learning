@@ -15,8 +15,8 @@ public class MainBank {
 		hsbc.lastName();
 		hsbc.mutualFund();
 
-		USBank us = new HSBCBank();// dynamic
-		// molymorphism:child class object can be referred by parent interface reference variable is called 
+		USBank us = new HSBCBank();
+		//dynamic molymorphism:child class object can be referred by parent interface reference variable is called 
 		
 		us.credit();
 		us.debit();

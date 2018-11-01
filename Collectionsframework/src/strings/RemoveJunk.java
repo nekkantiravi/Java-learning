@@ -14,6 +14,12 @@ public class RemoveJunk {
 		// How to reverse an integer
         // first approach
 		int reve = 12345;
+		
+		//public static String valueOf(int i)
+
+		//Returns the string representation of the int argument. 
+		//The representation is exactly the one returned by the Integer.toString method of one argument.
+		//Parameters:i - an int.Returns:a string representation of the int argument.
 
 		System.out.println(new StringBuffer(String.valueOf(reve)).reverse());
 		
