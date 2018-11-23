@@ -20,7 +20,7 @@ public class ThrowsKeyword {
 		int i = 10 / 0;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ArithmeticException{
 		ThrowsKeyword obj = new ThrowsKeyword();
 		obj.sum();
 		System.out.println("Exception successful");

@@ -27,7 +27,7 @@ public class ExceptionHandling {
 			System.out.println(i);
 		} catch (ArithmeticException e) {
 		   e.printStackTrace();// prints the exception
-			//e.getMessage(); //public String getMessage()/Returns the detail message string of this throwable.
+			e.getMessage(); //public String getMessage()/Returns the detail message string of this throwable.
 			
 			
 			}

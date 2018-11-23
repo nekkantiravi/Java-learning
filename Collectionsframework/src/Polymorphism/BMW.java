@@ -5,7 +5,10 @@ public class BMW extends Car {
 	public void start() {
 		System.out.println("BMW start method");
 	}
+	public void engine() {
+		System.out.println("BMW engine method");
 
+	}
 	public void theftSafety() {
 		System.out.println("BMW theftSafety method");
 	}

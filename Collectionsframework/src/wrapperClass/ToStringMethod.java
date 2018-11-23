@@ -16,16 +16,16 @@ public class ToStringMethod {
 	        this.course = course; 
 	        this.address = address; 
 	    } 
-	/*public String toString() 
+	public String toString() 
 	    { 
 	        return name + " " + age + " " + college + " " + course + " " + address; 
-	    } */
+	    } 
 	public static void main(String[] args) 
 	    { 
 		ToStringMethod b =  
 	        new ToStringMethod("Gulpreet Kaur", 21, "BIT MESRA", "M.TECH", "Kiriburu"); 
 	        System.out.println(b.name+" " +b.age); 
-	        //System.out.println(b.toString()); 
+	        System.out.println(b.toString()); 
 	    } 
 	} 
 

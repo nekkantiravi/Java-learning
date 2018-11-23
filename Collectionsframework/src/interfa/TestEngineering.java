@@ -10,6 +10,8 @@ public class TestEngineering {
 		Engineering.mechanicalDepartment();
 		c.collegeStaff();
 		
+		System.out.println("**********************");
+		
 		Engineering e=new College();//Dynamic polymorphism
 		e.computerDepartment();
 		e.civilDepartment();

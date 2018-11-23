@@ -25,8 +25,6 @@ public class ReverseString {
 		 * System.out.println(sf.reverse());
 		 */
 
-		
-
 		// Java program to Reverse a String by
 		// converting string to characters one by one
 
